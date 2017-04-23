@@ -36,5 +36,5 @@ return Promise.all(
 
 ## строка 139: Вопрос №5: для чего нужно клонирование?
 
-Клонирование нужно так как response - это [https://streams.spec.whatwg.org/](Stream), и его можно прочитать только один раз.
+Клонирование нужно так как response - это [Stream](https://streams.spec.whatwg.org/), и его можно прочитать только один раз.
 
