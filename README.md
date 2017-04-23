@@ -2,7 +2,7 @@
 
 * Далее в `service-worker.js` нужно поменять путь `importScripts('../vendor/kv-keeper.js-1.0.4/kv-keeper.js');` на `importScripts('vendor/kv-keeper.js-1.0.4/kv-keeper.js');`.
 
-* В blocks.js` нужно поменять строку 469 с `.register('./assets/service-worker.js')` на `.register('../service-worker.js')`.
+* В `blocks.js` нужно поменять строку 469 с `.register('./assets/service-worker.js')` на `.register('../service-worker.js')`.
 
 * Также нужно добавить `cacheKey.includes('gifs.html')||` в `function needStoreForOffline`.
 
