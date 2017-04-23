@@ -29,7 +29,7 @@ return Promise.all(
                     .map(name => {
                         console.log('[ServiceWorker] Deleting obsolete cache:', name);
                         return caches.delete(name); /*Для каждого имени кэша в отфильтрованном массиве создать Promise который отвечает за удаления данного кэша*/
-                    }) /*Возвращает массив промисов как аргумент в функцию Promise.all
+                    }) /*Возвращает массив промисов как аргумент в функцию Promise.all*/
             );
 
 ```
